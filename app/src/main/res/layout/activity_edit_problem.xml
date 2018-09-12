@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.android.il.almadar.technician.EditProblemActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Issue Description"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Car Information:"
+        android:id="@+id/textView21"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="There is no information"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/editProblemTVCarInfo" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Problem Description:"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/textView22" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="There is no description"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/editProblemTVDesc" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User comment:"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/textView23" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="There is no user comment"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/editProblemTVUserComment" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Technician Comment:"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/textView24" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="3"
+        android:id="@+id/editTextTechComment" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Issue solved?"
+        android:id="@+id/checkBoxIssueSolved"
+        android:checked="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:text="Save Changes"
+        android:layout_margin="10dp"
+        android:drawableRight="@drawable/save"
+        android:id="@+id/buttonSave" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Car Location"
+        android:id="@+id/buttonCarLocation"
+        android:drawableRight="@drawable/mapicon"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_selector"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chat with Client"
+        android:layout_margin="10dp"
+        android:drawableRight="@drawable/chat"
+        android:background="@drawable/button_selector"
+        android:id="@+id/buttonChat" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Client"
+        android:layout_margin="10dp"
+        android:drawableRight="@drawable/phone"
+        android:background="@drawable/button_selector"
+        android:id="@+id/buttonCall" />
+</LinearLayout>
+</ScrollView>

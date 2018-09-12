@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimaryDark">#1a237e</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorAccent">#0277bd</color>
+    <color name= "buttonColor">#4fc3f7</color>
+    <color name="windowBackground">#FFFFFF</color>
+
+    <color name="button_sign_up_normal_blue_color">#4fc3f7</color>
+    <color name="button_sign_up_pressed_blue_color">#00538e</color>
+    <!--<color name ="primaryText">#3f3856</color>
+    <color name= "seconderyText">#727272</color>
+    <color name="deviceText">#B6B6B6</color>-->
+    <color name="menu_item_background_pressed_color">#b7b3b7</color>
+    <color name="menu_item_background_longpressed_color">#744b8e</color>
+    <color name="menu_item_background_activated_color">#523564</color>
+    <color name="list_item_background_pressed_color">#e4f4ff</color>
+
+
+
+</resources>

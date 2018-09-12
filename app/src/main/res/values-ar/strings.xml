@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">المدار</string>
+    <string name="action_settings">الاعدادات</string>
+    <string name="hello_world"></string>
+    <string name="title_activity_maintenance">صيانة السيارة</string>
+    <string name="title_activity_services">خدمات</string>
+    <string name="title_activity_login">تسجيل دخول</string>
+    <string name="title_activity_cars">نوع سيارة </string>
+    <string name="title_activity_car">السيارات </string>
+    <string name="title_activity_main">المدار</string>
+</resources>

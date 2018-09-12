@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_Mycar" android:icon="@drawable/sportcar"
+            android:title="My Cars" />
+        <item android:id="@+id/nav_addCar" android:icon="@drawable/caradd"
+            android:title="Add Car" />
+        <item android:id="@+id/nav_myappintment" android:icon="@drawable/calendar"
+            android:title="My Appointment" />
+        <item android:id="@+id/nav_manage" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Services" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@drawable/profile"
+                android:title="Profile" />
+            <item android:id="@+id/nav_logout" android:icon="@android:drawable/ic_lock_idle_lock"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

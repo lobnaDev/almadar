@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.android.il.almadar.MaintenanceActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your Maintenance Type"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/Enginebutton"
+            android:drawableRight="@drawable/engin_ic"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_selector"
+            android:text="Engine"
+            />
+
+        <Button
+            android:id="@+id/ACbutton"
+            android:drawableRight="@drawable/ac_ic"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Enginebutton"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_selector"
+            android:text="A/C"
+            />
+
+        <Button
+            android:id="@+id/wheelsbutton"
+            android:drawableRight="@drawable/wheel_ic"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/ACbutton"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_selector"
+            android:text="wheels"
+            />
+
+        <Button
+            android:id="@+id/breakerbutton"
+            android:drawableRight="@drawable/breaker_ic"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/wheelsbutton"
+            android:layout_marginBottom="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_selector"
+            android:text="Breakers"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

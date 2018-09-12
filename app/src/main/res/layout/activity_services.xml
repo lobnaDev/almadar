@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.android.il.almadar.ServicesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/maintebutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/button_selector"
+            android:drawableRight="@drawable/maintan_ic"
+            android:text="Car Maintenance"
+            />
+
+        <Button
+            android:id="@+id/washbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/maintebutton"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_selector"
+            android:drawableRight="@drawable/wash_ic"
+            android:text="Car wash "
+            />
+
+
+        <Button
+            android:id="@+id/problembutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/washbutton"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_selector"
+            android:drawableRight="@drawable/problem_ic"
+            android:text="Send Problem"
+
+            />
+        <Button
+            android:id="@+id/bpetrolStation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/washbutton"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_selector"
+            android:drawableRight="@drawable/problem_ic"
+            android:text="Nearby Petrol Stations"
+
+            />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Choose your Services"
+        android:textSize="20dp" />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "625105010217",
+    "firebase_url": "https://al-madar-78f9a.firebaseio.com",
+    "project_id": "al-madar-78f9a",
+    "storage_bucket": "al-madar-78f9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625105010217:android:d7c46407506c582f",
+        "android_client_info": {
+          "package_name": "com.android.il.almadar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625105010217-82383dggp5onbds33h6sa77ke7h3m9v5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.il.almadar",
+            "certificate_hash": "c7460a0fbf1c2b7c0d844a7240ccb2acc0ceef2a"
+          }
+        },
+        {
+          "client_id": "625105010217-0tsmvbq0qi2pj3g221iillge6ch33frs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_fekkA2cFaG3rKpgA9GiddDCWAsyy8fU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "625105010217-0tsmvbq0qi2pj3g221iillge6ch33frs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

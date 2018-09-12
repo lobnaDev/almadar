@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background= "@drawable/list_item_selector"
+    android:layout_margin="10dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Car Type:"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/textViewItemCT" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/listTechUsername"
+        android:layout_alignLeft="@+id/listTechFullName"
+         />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Car Model:"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/textViewItemCM"
+        android:layout_below="@+id/textViewItemCT"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/listTechFullName"
+        android:layout_alignTop="@+id/textViewItemCM"
+        android:layout_toRightOf="@+id/textViewItemCM"
+        android:layout_toEndOf="@+id/textViewItemCM" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Car Year: "
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/textViewAppDate"
+        android:layout_below="@+id/textViewItemCM"
+
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/listCarTvYear"
+        android:layout_below="@+id/listTechFullName"
+        android:layout_alignLeft="@+id/listTechFullName"
+        android:layout_alignStart="@+id/listTechUsername" />
+</RelativeLayout>

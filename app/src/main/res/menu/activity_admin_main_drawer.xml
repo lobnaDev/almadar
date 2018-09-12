@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_new_problems"
+            android:icon="@drawable/sportcar"
+            android:title="New Problems" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Services" />
+        <item
+            android:id="@+id/nav_techs"
+            android:icon="@drawable/tech"
+            android:title="Technicians" />
+        <item
+            android:id="@+id/nav_repair_shop"
+            android:icon="@drawable/caradd"
+            android:title="Edit Repair Shop" />
+    </group>
+
+    <item android:title="Personal Info">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/profile"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@android:drawable/ic_lock_idle_lock"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
